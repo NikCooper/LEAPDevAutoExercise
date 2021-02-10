@@ -10,7 +10,7 @@ The advantages of this framework include:
 - Powerful and straightforward assertion capabilities. Easy to include in any test. 
 
 This framework uses Maven to run in the command line. This can be done using the follow commands:
-- To run the test file for test execution -> mvn test -Dtest=PlatformTestRunner 
+- To run the test file for test execution -> mvn test -Dtest=TestRunner 
 - To clean the results from the project -> mvn clean
 
 The only file which needs to be run is the TestRunner using the above command line function. This will execute all the test cases in parallel. 
